@@ -1,0 +1,22 @@
+{
+  "name": "image-proxy-service",
+  "version": "1.0.0",
+  "description": "Vercel serverless image proxy service to bypass hotlink protection",
+  "type": "module",
+  "main": "api/index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "image-proxy",
+    "vercel",
+    "serverless",
+    "hotlink-protection"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
